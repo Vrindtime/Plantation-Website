@@ -1,0 +1,601 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: "Lexend", sans-serif;
+    box-sizing: border-box;
+}
+/* Hero Section */
+
+.herosection{
+    
+    height:862px;
+    /* background-image: url("/PlantationWebsite/images/PlantationImage.png"); */
+    background-image: url("/images/PlantationImage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Rorem */
+.roremdiv{
+    width:646px;
+    height:140px;
+    margin: auto;
+    font-weight: 600;
+    font-family: "Lexend", sans-serif;
+    font-size: 56px;
+    text-align: center;
+    color:#FFFFFF;
+    margin-top: 246px;
+    
+}
+
+/* Horem */
+.horemdiv{
+    width: 646px;
+    height: 81px;
+    margin: auto;
+    font-weight: 300;
+    font-size: 18px;
+    color:#FFFFFF;
+    text-align: center;
+    margin-top: 50px;
+}
+.explorenowdiv{
+    width:146px;
+    height: 44px;
+    margin: auto;
+    border-radius:8px;
+    background-color:#703525;
+    padding:12px, 24px, 12px, 24px;
+
+}
+.explorenowtext{
+    padding:10px;
+    margin-top:18px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.scrolldown{
+    width: 119px;
+    height:20px;
+    margin: auto;
+    margin-top: 120px;
+
+}
+
+/* Hero Section */
+
+/* About Us Section */
+.aboutussection{
+    height: 1096px;
+    padding: 80px 105px 80px 105px;
+    background-color:#FEF7EE;
+}
+.aboutusmaindiv{
+    width: 1230px;
+    height: 720px;
+}
+.aboutusdiv{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.aboutusdiv .Frame1{
+    width: 501px;
+    height:280px;
+}
+.loremdiv{
+    width:99px;
+    height:17px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.logoabtus{
+    width:17px;
+    height:17px;
+    margin-top: -2px;
+}
+.loremcontent{
+    width:55px;
+    height: 15px;
+    color: #703525;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+}
+.loremtext{
+    width:501px;
+    height:100px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    color:#314C3D;
+}
+.doremtext{
+    width: 501px;
+    height: 135px;
+    font-weight: 300;
+    font-size: 16px;
+    color:#343434;
+    margin-top: 60px;
+}
+.Frame1img{
+    width: 520px;
+    height: 648px;
+    border-radius: 8px;
+}
+.aboutusdiv .Frame2{
+    width: 606px;
+    height: 996px;
+}
+.Frame2img1 img{
+    width: 595px;
+    height:315px;
+    margin-top: 30px;
+}
+.Frame2gridimg{
+    margin-top: 45px;
+}
+.frame2-grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+    row-gap: 10px; 
+}
+.frame2-grid-container .grid-item {
+    padding: 0px 0px 0px 0px;
+    font-size: 30px;
+}
+.grid-item img{
+    width: 188px;
+    height: 273px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+}
+.aboutuscard{
+    width: 188px;
+    height: 273px;
+}
+.aboutuscard img{
+    width: 187.5px;
+    height: 147px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.aboutuscard .container{
+    width: 187px;
+    height: 137px;
+    margin: auto;
+    margin-top: -20px;
+    border: 1px solid #000000;
+    border-radius: 0px 0px 8px 8px;
+}
+.aboutuscard .container div{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17.5px; 
+    color: black;
+    margin-top: 50px;
+}
+
+/* About Us Section */
+
+
+/* Business Section */
+
+.businesssection{
+    height:700px;
+    padding: 80px 105px 80px 105px;
+    gap: 10px;
+    opacity: 0px;
+    background-color:#FFFFFF;
+}
+.businessdiv{
+    width: 1,230px;
+    height: 720px;
+}
+.businessdiv .Frame1{
+    width: 692px;
+    height: 149px;
+}
+.businesscontent{
+    width:99px;
+    height:17px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.businesstext{
+    width:78px;
+    height:15px;
+    font-size:12px;
+    color:#703525;
+}
+.businesslorem{
+    width:692px;
+    height:120px;
+}
+.businesslorem .loremtext{
+    width: 692px;
+    height:50px;
+}
+.businesslorem .doremtext{
+    width: 692px;
+    height: 54px;
+    margin-top: 20px;
+}
+.lineimg{
+    width:1230px;
+    border: 1px;
+    color:#D7D7D7;
+    rotate: -0 deg;
+    text-align: center;
+}
+.businesssection .Frame2{
+    width:1230px;
+    height:519px;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container {
+    width:293px;
+    height:160px; 
+}
+.card img{
+    width:293px;
+    height:343px;
+}
+.containertext1{
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+    color:#314C3D;
+}
+.containertext2{
+    margin-top: 20px;
+    width: 293px;
+    height: 78px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25.6px;
+    text-align: left;
+}
+.text1{
+    width: 132px;
+    height: 30px;
+}
+.text2{
+    width: 141px;
+    height: 30px;
+}
+.text3{
+    width: 177px;
+    height: 30px;
+}
+.text4{
+    width: 243px;
+    height: 30px;
+}
+.exploreframe{
+    width:140px;
+    height:20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+}
+.exploreframe div{
+    width: 102px;
+    height:20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color:#703525;
+}
+.exploreframe span{
+    margin-left: 5px;
+}
+.exploreframe img{
+    width:20px;
+    height:20px;
+}
+/* Business Section */
+
+/* Properties Section */
+
+.propertiessection{
+    height: 929px;
+    padding: 80px 105px 80px 105px;
+    background-color:#FEF7EE;
+    margin-top: 120px;
+}
+.propertiesdiv{
+    width: 1230px;
+    height: 769px;
+}
+.propertiesdiv .Frame1{
+    width: 1230px;
+    height:169px; 
+}
+.propertiescontent{
+    width:110px;
+    height:17px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.propertiestext{
+    width:89px;
+    height:15px;
+    font-size: 12px;
+    color:#703525;
+}
+.plantationsdiv{
+    width:692px;
+    height:120px;
+}
+.propertiesdiv .Frame2{
+    width:1230px;
+    height:568px;
+    margin-top: 20px;
+}
+.component1{
+    width:830px;
+    height:46px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.component1div{
+    width: 125px;
+    height: 46px;
+    border-radius: 4px 0px 0px 0px;
+    border:1px solid;
+}
+.bgcolor{
+    border-color: #E4E4E4;
+    background-color: rgba(112, 53, 37, 0.15);
+}
+.component1div .commonprop{
+    height:18px;
+    font-size: 14px;
+    font-weight: 400;
+    margin: auto;
+    padding:12px;
+}
+.component1div .coffee{
+    width:45px;
+    height:18px; 
+    color:rgba(112, 53, 37, 1);
+}
+.bgcolor1{
+    border-color: rgba(228, 228, 228, 1);
+}
+.component1div .pepper{
+    width:49px;
+    color:rgba(34, 34, 34, 1);
+
+}
+.component1div .araccanut{
+    width:71px;
+    color:rgba(34, 34, 34, 1);
+}
+.component1div .coconut{
+    width:57px;
+    color:rgba(34, 34, 34, 1);
+}
+.component1div .ginger{
+    width:46px;
+    color:rgba(34, 34, 34, 1);
+}
+.component1div .mango{
+    width:47px;
+    color:rgba(34, 34, 34, 1);
+}
+.component2{
+    width:1230px;
+    height: 482px;
+    margin-top: 70px;
+}
+.component2div{
+    width:1230px;
+    height:402px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.component2div1 .description1{
+    width:605px;
+    height: 141px;
+}
+.component2div1 .description1 .text1{
+    width:91px;
+    height:35px;
+    font-weight: 500;
+    font-size: 28px;
+    color:rgba(49, 76, 61, 1);
+
+}
+.component2div1 .description1 .text2{
+    width:605px;
+    height:90px;
+    font-weight: 300;
+    font-size: 16px;
+    color:rgba(75, 75, 75, 1);
+    margin-top: 10px;
+}
+.component2div1 .description2{
+    width:471px;
+    height: 230px;
+    display:grid;
+
+}
+.component2div1 .description2 .Frame1{
+    width:182px;
+    height: 89px;
+}
+.component2div1 .description2 .Frame1 img{
+    width:24px;
+    height:24px;
+}
+.component2div1 .description2 .Frame2{
+    width:182px;
+    height: 53px;
+    margin-top: -40px;
+}
+.component2div1 .description2 .Frame2 .text1{
+    width:63px;
+    height:25px;
+    font-weight: 500;
+    font-size: 20px;
+    color:rgba(49, 76, 61, 1);
+}
+.component2div1 .description2 .Frame2 .text2{
+    width:182px;
+    height:20px;
+    font-weight: 300;
+    font-size: 16px;
+    color:rgba(75, 75, 75, 1);
+    margin-top: 10px;
+}
+.description2 .grid-container {
+    display: grid;
+    grid-template-columns: auto auto ;
+    column-gap: 120px;
+    row-gap: 40px;
+}
+.component2div1 .description2 .Frame2 .component4text1{
+    width:155px;
+}
+.componentdiv2 div{
+    width:518px;
+    height:402px;
+}
+.component3{
+    width:96px;
+    height:40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.component3 .Frame1{
+    width:40px;
+    height:30px;
+    background-color:rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    text-align: center;
+}
+.component3 .Frame1 img{
+    width:24px;
+    height:24px;
+}
+.component3 .Frame2{
+    width:40px;
+    height:30px;
+    background-color:rgba(112, 53, 37, 1);
+    border-radius: 10px;
+    text-align: center;
+    margin-top: -1px;
+}
+.component3 .Frame2 img{
+    width:24px;
+    height:24px;
+}
+
+/* Properties Section */
+
+/* Newsletter Section */
+.newslettersection{
+    height: 309px;
+    margin-top: 20px;
+    padding: 80px 105px 80px 105px;
+    background-color: rgba(255, 255, 255, 1);
+}
+.newsletterdiv{
+    width: 1230px;
+    height: 149px;
+}
+.newslettersection .grid-container {
+    display: grid;
+    grid-template-columns: auto auto ;
+}
+.newslettersection .Frame1{
+    width:692px;
+    height:149px;
+}
+.newslettercontent{
+    width:86px;
+    height:17px;
+    display: flex;
+}
+.newslettercontent img{
+    width:17px;
+    height:17px;
+}
+.newslettercontent1{
+    width:692px;
+    height:120px;
+}
+.newslettercontent1 .text1{
+    width:692px;
+    height:50px;
+    font-weight: 500;
+    font-size: 40px;
+    color:rgba(49, 76, 61, 1);
+}
+.newslettercontent1 .text2{
+    width:692px;
+    height:54px;
+    font-weight: 300;
+    font-size: 16px;
+    color:rgba(52, 52, 52, 1);
+}
+.newslettersection .Frame2{
+    width:501px;
+    height:64px;
+    margin-top: 30px;
+    border: 1px solid;
+    border-radius: 8px;
+    border-color: rgba(112, 53, 37, 1);
+    display: flex;
+    justify-content: space-between;
+}
+.emaildiv{
+    width:190px;
+    height:20px;
+    padding:17px;
+    font-size: 16px;
+    font-weight: 300;
+    color:rgba(115, 115, 115, 1);
+}
+.subscribediv{
+    width: 140px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: rgba(112, 53, 37, 1);
+    margin-top: 4px;
+    margin-right: 5px;
+}
+.subscribediv .text{
+    width:77px;
+    height:20px;
+    font-weight: 400;
+    font-size: 16px;
+    color:rgba(255, 255, 255, 1);
+    margin: auto;
+    margin-top: 13px;
+}
+
+/* Newsletter Section */
+
+
+
